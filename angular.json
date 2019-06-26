@@ -130,6 +130,41 @@
           }
         }
       }
+    },
+    "ng-validator": {
+      "root": "projects/ng-validator",
+      "sourceRoot": "projects/ng-validator/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-validator/tsconfig.lib.json",
+            "project": "projects/ng-validator/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-validator/src/test.ts",
+            "tsConfig": "projects/ng-validator/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-validator/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-validator/tsconfig.lib.json",
+              "projects/ng-validator/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "NgValidator"

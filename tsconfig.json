@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-validator": [
+        "dist/ng-validator"
+      ],
+      "ng-validator/*": [
+        "dist/ng-validator/*"
+      ]
+    }
   }
 }
