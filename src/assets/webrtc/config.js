@@ -16,9 +16,9 @@
 
     /** Test server / app by defaults */
     const creds = {
-        'appId': 77794,
-        'authKey': 'krOUACbfyenPHbC',
-        'authSecret': 'gsBkRHhL2eVgWMq'
+        'appId': 77722,
+        'authKey': 'cg8XYe6SOzWQ-24',
+        'authSecret': '8bBndFHddHAwEUh'
     };
 
     const config = {
@@ -38,7 +38,7 @@
 
     /**
      * Get value of key from search string of url
-     * 
+     *
      * @param  {string} q - name of query
      * @returns {string|number} - value of query
      */
