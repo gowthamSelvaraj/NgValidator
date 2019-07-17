@@ -1,0 +1,21 @@
+{
+  "appointmentDetails": [
+    {
+      "appointmentID": "APP001",
+      "appointmentDate": "07/12/2019",
+      "appointmentTime": "1500"
+    }
+  ],
+  "statusCode": "0000",
+  "statusDesc": "Success",
+  "authenticated": "true",
+  "isSpecialUser": "true",
+  "firstName": "Preetha",
+  "lastName": "Prasad",
+  "age": "29",
+  "emailID": "preethahariprasad@gmail.com",
+  "userID": "123444",
+  "planInfo": "23123123",
+  "deviceID": "2131231230",
+  "videoID": ""
+}
