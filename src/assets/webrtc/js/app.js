@@ -122,7 +122,7 @@
                 app.users = [];
 
                 var user = JSON.parse(localStorage.getItem('data'));
-         
+
                 if (user) {
                     $('.j-join__username').val(user.username);
                 }
@@ -306,6 +306,7 @@
                         app.router.navigate('dashboard', { trigger: true });
                     }
                 });
+                app.router.navigate('dashboard', { trigger: true });
             }).catch(function(error) {
                 $form.removeClass('join-wait');
                 try {
@@ -796,7 +797,7 @@
          * - onStopCallListener
          * - onSessionCloseListener
          * - onSessionConnectionStateChangedListener
-         * 
+         *
          * - onDevicesChangeListener
          */
 
@@ -1113,7 +1114,7 @@
                 }
             }
         };
-        
+
         QB.webrtc.onDevicesChangeListener = function onDevicesChangeListeners() {
             fillMediaSelects().then(switchMediaTracks);
         };
@@ -1127,7 +1128,7 @@
             app.helpers.notifyIfUserLeaveCall(app.currentSession, userId, 'disconnected', 'Disconnected');
             app.currentSession.closeConnection(userId);
         }
-        
+
         function showMediaDevices(kind) {
             return new Promise(function(resolve, reject) {
                 QB.webrtc.getMediaDevices(kind).then(function(devices) {
@@ -1153,7 +1154,7 @@
                     } else {
                         $('.j-media_sources').addClass('invisible');
                     }
-                
+
                     resolve();
                 }).catch(function(error) {
                     console.warn('getMediaDevices', error);
@@ -1175,12 +1176,12 @@
                         stream.getTracks().forEach(function(track) {
                             track.stop();
                         });
-                        
+
                         resolve();
                     });
                 }).catch(function(error) {
                     console.warn('Video devices were shown without names (getUserMedia error)', error);
-                    
+
                     showMediaDevices('videoinput').then(function() {
                         return showMediaDevices('audioinput');
                     }).then(function() {
