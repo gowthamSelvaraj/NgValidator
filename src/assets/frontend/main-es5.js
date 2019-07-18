@@ -98,13 +98,10 @@ function View_AppComponent_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE
     } if (("compositionend" === en)) {
         var pd_3 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 20)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](20, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["COMPOSITION_BUFFER_MODE"]]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](21, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["RequiredValidator"], [], { required: [0, "required"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], function (p0_0) { return [p0_0]; }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["RequiredValidator"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], function (p0_0) { return [p0_0]; }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](24, 671744, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], [[3, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ControlContainer"]], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"]], [8, null], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"]], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_q"]]], { name: [0, "name"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](26, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 1, "button", [["class", "btn btn-lg btn-primary btn-block"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Sign in"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 1, "p", [["class", "py-3 text-muted text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["\u00A9 2019-2020"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 0, "video", [["autoplay", ""], ["class", "frames__main_v qb-video_source"], ["id", "main_video"], ["playsinline", ""]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "button", [["type", "button"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](20, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["COMPOSITION_BUFFER_MODE"]]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](21, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["RequiredValidator"], [], { required: [0, "required"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], function (p0_0) { return [p0_0]; }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["RequiredValidator"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], function (p0_0) { return [p0_0]; }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](24, 671744, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"], [[3, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ControlContainer"]], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"]], [8, null], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"]], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_q"]]], { name: [0, "name"] }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlName"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](26, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](27, 0, null, null, 1, "button", [["class", "btn btn-lg btn-primary btn-block"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["Call"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](29, 0, null, null, 1, "p", [["class", "py-3 text-muted text-center"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["\u00A9 2019-2020"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](31, 0, null, null, 0, "video", [["autoplay", ""], ["class", "frames__main_v qb-video_source"], ["id", "main_video"], ["playsinline", ""]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 1, "button", [["type", "button"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.login() !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["login"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 1, "button", [["type", "button"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.call() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["call"]))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.form; _ck(_v, 2, 0, currVal_7); var currVal_16 = ""; _ck(_v, 10, 0, currVal_16); var currVal_17 = "caller"; _ck(_v, 13, 0, currVal_17); var currVal_26 = ""; _ck(_v, 21, 0, currVal_26); var currVal_27 = "attendee"; _ck(_v, 24, 0, currVal_27); }, function (_ck, _v) { var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassUntouched; var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassTouched; var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassPristine; var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassDirty; var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassValid; var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassInvalid; var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 10).required ? "" : null); var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassUntouched; var currVal_10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassTouched; var currVal_11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassPristine; var currVal_12 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassDirty; var currVal_13 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassValid; var currVal_14 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassInvalid; var currVal_15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassPending; _ck(_v, 8, 0, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15); var currVal_18 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 21).required ? "" : null); var currVal_19 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassUntouched; var currVal_20 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassTouched; var currVal_21 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassPristine; var currVal_22 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassDirty; var currVal_23 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassValid; var currVal_24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassInvalid; var currVal_25 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassPending; _ck(_v, 19, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25); }); }
+    } return ad; }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["login"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 11, "div", [["class", "frames_callee callees__callee j-callee"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](35, 0, null, null, 4, "div", [["class", "frames_callee__inner"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](36, 0, null, null, 1, "p", [], [[8, "className", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](37, null, [" ", " "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](38, 0, null, null, 1, "div", [["class", "qb-video"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](39, 0, null, null, 0, "video", [["autoplay", ""], ["class", "j-callees__callee__video qb-video_source"], ["playsinline", ""]], [[8, "id", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](40, 0, null, null, 1, "p", [["class", "frames_callee__name"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](41, null, ["", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](42, 0, null, null, 3, "div", [["class", "frames_callee__bitrate"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](43, 0, null, null, 1, "span", [], [[8, "id", 0]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, ["0"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" kbps "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](46, 0, null, null, 2, "audio", [["id", "endCallSignal"], ["preload", "auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](47, 0, null, null, 0, "source", [["src", "audio/end_of_call.ogg"], ["type", "audio/ogg"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](48, 0, null, null, 0, "source", [["src", "audio/end_of_call.mp3"], ["type", "audio/mp3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](49, 0, null, null, 2, "audio", [["id", "callingSignal"], ["loop", ""], ["preload", "auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](50, 0, null, null, 0, "source", [["src", "audio/calling.ogg"], ["type", "audio/ogg"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](51, 0, null, null, 0, "source", [["src", "audio/calling.mp3"], ["type", "audio/mp3"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](52, 0, null, null, 2, "audio", [["id", "ringtoneSignal"], ["loop", ""], ["preload", "auto"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](53, 0, null, null, 0, "source", [["src", "audio/ringtone.ogg"], ["type", "audio/ogg"]], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](54, 0, null, null, 0, "source", [["src", "audio/ringtone.mp3"], ["type", "audio/mp3"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.form; _ck(_v, 2, 0, currVal_7); var currVal_16 = ""; _ck(_v, 10, 0, currVal_16); var currVal_17 = "caller"; _ck(_v, 13, 0, currVal_17); var currVal_26 = ""; _ck(_v, 21, 0, currVal_26); var currVal_27 = "attendee"; _ck(_v, 24, 0, currVal_27); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassUntouched; var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassTouched; var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassPristine; var currVal_3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassDirty; var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassValid; var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassInvalid; var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 4).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 10).required ? "" : null); var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassUntouched; var currVal_10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassTouched; var currVal_11 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassPristine; var currVal_12 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassDirty; var currVal_13 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassValid; var currVal_14 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassInvalid; var currVal_15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 15).ngClassPending; _ck(_v, 8, 0, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15); var currVal_18 = (_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 21).required ? "" : null); var currVal_19 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassUntouched; var currVal_20 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassTouched; var currVal_21 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassPristine; var currVal_22 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassDirty; var currVal_23 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassValid; var currVal_24 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassInvalid; var currVal_25 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 26).ngClassPending; _ck(_v, 19, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25); var currVal_28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "frames_callee__status j-callee_status_", _co.callee.userID, ""); _ck(_v, 36, 0, currVal_28); var currVal_29 = _co.callee.state; _ck(_v, 37, 0, currVal_29); var currVal_30 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "remote_video_", _co.callee.userID, ""); _ck(_v, 39, 0, currVal_30); var currVal_31 = _co.callee.name; _ck(_v, 41, 0, currVal_31); var currVal_32 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "bitrate_", _co.callee.userID, ""); _ck(_v, 43, 0, currVal_32); }); }
 function View_AppComponent_Host_0(_l) { return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "mvp-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 49152, null, 0, _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]], null, null)], null, null); }
 var AppComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("mvp-root", _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], View_AppComponent_Host_0, {}, {}, []);
 
@@ -172,47 +169,189 @@ var AppComponent = /** @class */ (function () {
             caller: '',
             attendee: ''
         });
+        this.deviceId = {
+            video: undefined,
+            audio: undefined
+        };
+        this.callee = {
+            'userID': this.form.value.attendee,
+            'name': this.form.value.attendee,
+            'state': 'connecting'
+        };
+        this.sounds = {
+            'call': 'callingSignal',
+            'end': 'endCallSignal',
+            'rington': 'ringtoneSignal'
+        };
+        this.call = document.getElementById(this.sounds.call);
         // this._auth.isloggedIn.subscribe((isloggedIn) => {
         //   this.isloggedIn = isloggedIn;
         // });
         this._initQBSession();
+        this.fillMediaSelects();
     }
     AppComponent.prototype._initQBSession = function () {
         QB.init(this.CONFIG.CREDENTIALS.appId, this.CONFIG.CREDENTIALS.authKey, this.CONFIG.CREDENTIALS.authSecret, this.CONFIG.APP_CONFIG);
     };
+    AppComponent.prototype.showMediaDevices = function (kind) {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            QB.webrtc.getMediaDevices(kind).then(function (devices) {
+                var isVideoInput = (kind === 'videoinput');
+                // $select = isVideoInput ? $(ui.videoSourceFilter) : $(ui.audioSourceFilter);
+                if (isVideoInput) {
+                    _this.deviceId.video = devices[0].deviceId;
+                }
+                else {
+                    _this.deviceId.audio = devices[0].deviceId;
+                }
+                console.log(devices);
+                // $select.empty();
+                // if (devices.length) {
+                //     for (var i = 0; i !== devices.length; ++i) {
+                //         var deviceInfo = devices[i],
+                //             option = document.createElement('option');
+                //         option.value = deviceInfo.deviceId;
+                //         if (deviceInfo.kind === kind) {
+                //             option.text = deviceInfo.label || (isVideoInput ? 'Camera ' : 'Mic ') + (i + 1);
+                //             $select.append(option);
+                //         }
+                //     }
+                //     $('.j-media_sources').removeClass('invisible');
+                // } else {
+                //     $('.j-media_sources').addClass('invisible');
+                // }
+                resolve();
+            }).catch(function (error) {
+                console.warn('getMediaDevices', error);
+                reject();
+            });
+        });
+    };
+    AppComponent.prototype.fillMediaSelects = function () {
+        var _this = this;
+        return new Promise(function (resolve, reject) {
+            navigator.mediaDevices.getUserMedia({
+                audio: true,
+                video: true
+            }).then(function (stream) {
+                _this.showMediaDevices('videoinput').then(function () {
+                    return _this.showMediaDevices('audioinput');
+                }).then(function () {
+                    stream.getTracks().forEach(function (track) {
+                        track.stop();
+                    });
+                    resolve();
+                });
+            }).catch(function (error) {
+                console.warn('Video devices were shown without names (getUserMedia error)', error);
+                _this.showMediaDevices('videoinput').then(function () {
+                    return _this.showMediaDevices('audioinput');
+                }).then(function () {
+                    resolve();
+                });
+            });
+        });
+    };
     AppComponent.prototype.onSubmit = function () {
+        var _this = this;
         var calleesIds = [this.form.value.attendee]; // User's ids
         var sessionType = QB.webrtc.CallType.VIDEO; // AUDIO is also possible
         var callerID = this.form.value.caller; // Your user ID (optional, will be defined from chat connection)
         var additionalOptions = { "bandwith": 512 }; // The video bandwith (number, optional, 0 = unlimited)
-        QB.chat.connect({ userId: this.form.value.caller, password: "quickblox" }, function (err, roster) {
-            if (err) {
-                console.log(err);
-            }
-            else {
-            }
-        });
-        window.session = QB.webrtc.createNewSession(calleesIds, sessionType, callerID, additionalOptions);
         var mediaParams = {
-            audio: true,
-            video: true,
-            options: {
-                muted: true,
-                mirror: true
+            'audio': {
+                deviceId: this.deviceId.audio
             },
-            elemId: 'main_video'
+            'video': {
+                deviceId: this.deviceId.video
+            },
+            'options': {
+                'muted': true,
+                'mirror': true
+            },
+            'elemId': 'main_video'
         };
-        window.session.getUserMedia(mediaParams, function (err, stream) {
+        /** Check internet connection */
+        if (!window.navigator.onLine) {
+            alert('not online');
+            return false;
+        }
+        this.session = QB.webrtc.createNewSession(calleesIds, sessionType, callerID, additionalOptions);
+        this.session.getUserMedia(mediaParams, function (err, stream) {
             if (err) {
-                console.log(err);
+                alert('getmedia err');
+                // if (err || !stream.getAudioTracks().length || (isAudio ? false : !stream.getVideoTracks().length)) {
+                //   var errorMsg = '';
+                //   this.session.stop({});
+                //   app.helpers.stateBoard.update({
+                //     'title': 'tpl_device_not_found',
+                //     'isError': 'qb-error',
+                //     'property': {
+                //       'name': app.caller.full_name
+                //     }
+                //   });
             }
             else {
+                var callParameters = {};
+                // if (isAudio) {
+                //   callParameters.callType = 2;
+                // }
+                // Call to users
+                //
+                var pushRecipients = [];
+                _this.session.call({}, function () {
+                    if (!window.navigator.onLine) {
+                        this.session.stop({});
+                        alert('callerrror');
+                        // app.helpers.stateBoard.update({ 'title': 'connect_error', 'isError': 'qb-error' });
+                    }
+                    else {
+                        // var compiled = _.template($('#callee_video').html());
+                        // app.helpers.stateBoard.update({ 'title': 'calling' });
+                        this.callee = {
+                            'userID': this.form.value.attendee,
+                            'name': this.form.value.attendee,
+                            'state': 'connecting'
+                        };
+                        pushRecipients.push(this.form.value.attendee);
+                        this.call.play();
+                        // Object.keys(app.callees).forEach(function (id, i, arr) {
+                        //   videoElems += compiled({
+                        //     'userID': id,
+                        //     'name': app.callees[id],
+                        //     'state': 'connecting'
+                        //   });
+                        //   pushRecipients.push(id);
+                        // });
+                        // $('.j-callees').append(videoElems);
+                        // $bandwidthSelect.attr('disabled', true);
+                        // $btn.addClass('hangup');
+                        // app.helpers.setFooterPosition();
+                    }
+                });
+                // and also send push notification about incoming call
+                // (corrently only iOS/Android users will receive it)
+                //
+                var params = {
+                    notification_type: 'push',
+                    user: { ids: pushRecipients },
+                    environment: 'development',
+                    message: QB.pushnotifications.base64Encode('is calling you')
+                };
+                //
+                QB.pushnotifications.events.create(params, function (err, response) {
+                    if (err) {
+                        console.log(err);
+                        alert('pushnotifications err');
+                    }
+                    else {
+                        // success
+                        console.log("Push Notification is sent.");
+                        alert('Push Notification is sent.');
+                    }
+                });
             }
-        });
-    };
-    AppComponent.prototype.call = function () {
-        window.session.call({}, function (error) {
-            console.log(error);
         });
     };
     AppComponent.prototype.login = function () {
@@ -226,9 +365,9 @@ var AppComponent = /** @class */ (function () {
                 if (err) {
                     console.log(err);
                     alert('chat err');
-                    // if(!_.isEmpty(app.currentSession)) {
-                    //     app.currentSession.stop({});
-                    //     app.currentSession = {};
+                    // if(!_.isEmpty(this.session)) {
+                    //     this.session.stop({});
+                    //     this.session = {};
                     // }
                     // app.helpers.changeFilter('#localVideo', 'no');
                     // app.helpers.changeFilter('#main_video', 'no');
