@@ -151,9 +151,9 @@ var AppComponent = /** @class */ (function () {
         this.title = 'frontend';
         this.CONFIG = {
             CREDENTIALS: {
-                'appId': 77794,
-                'authKey': 'krOUACbfyenPHbC',
-                'authSecret': 'gsBkRHhL2eVgWMq'
+                'appId': 77722,
+                'authKey': 'cg8XYe6SOzWQ-24',
+                'authSecret': '8bBndFHddHAwEUh'
             },
             APP_CONFIG: {
                 debug: true,
@@ -279,11 +279,11 @@ var AppComponent = /** @class */ (function () {
         }
         this.session = QB.webrtc.createNewSession(calleesIds, sessionType, callerID, additionalOptions);
         this.session.getUserMedia(mediaParams, function (err, stream) {
-            if (err) {
+            if (err || !stream.getAudioTracks().length || !stream.getVideoTracks().length) {
                 alert('getmedia err');
                 // if (err || !stream.getAudioTracks().length || (isAudio ? false : !stream.getVideoTracks().length)) {
                 //   var errorMsg = '';
-                //   this.session.stop({});
+                _this.session.stop({});
                 //   app.helpers.stateBoard.update({
                 //     'title': 'tpl_device_not_found',
                 //     'isError': 'qb-error',
@@ -308,6 +308,7 @@ var AppComponent = /** @class */ (function () {
                     }
                     else {
                         // var compiled = _.template($('#callee_video').html());
+                        alert('calling');
                         // app.helpers.stateBoard.update({ 'title': 'calling' });
                         _this.callee = {
                             'userID': _this.form.value.attendee,
@@ -343,7 +344,7 @@ var AppComponent = /** @class */ (function () {
                 QB.pushnotifications.events.create(params, function (err, response) {
                     if (err) {
                         console.log(err);
-                        alert('pushnotifications err');
+                        alert('pushnotifications err' + JSON.stringify(err));
                     }
                     else {
                         // success
