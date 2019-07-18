@@ -301,7 +301,7 @@ let AppComponent = class AppComponent {
                     notification_type: 'push',
                     user: { ids: pushRecipients },
                     environment: 'development',
-                    message: QB.pushnotifications.base64Encode('is calling you')
+                    message: QB.pushnotifications.base64Encode(this.caller.full_name + ' is calling you')
                 };
                 //
                 QB.pushnotifications.events.create(params, function (err, response) {
@@ -321,6 +321,7 @@ let AppComponent = class AppComponent {
     login() {
         this._login().then((data) => {
             console.log(data);
+            this.caller = data;
             QB.chat.connect({
                 jid: QB.chat.helpers.getUserJid(data.id, this.CONFIG.CREDENTIALS.appId),
                 password: 'quickblox'
