@@ -2,7 +2,17 @@
   "appointmentDetails": [
     {
       "appointmentID": "APP001",
-      "appointmentDate": "07/12/2019",
+      "appointmentDate": "07/23/2019",
+      "appointmentTime": "1500"
+    },
+    {
+      "appointmentID": "APP001",
+      "appointmentDate": "07/22/2019",
+      "appointmentTime": "1500"
+    },
+    {
+      "appointmentID": "APP001",
+      "appointmentDate": "07/24/2019",
       "appointmentTime": "1500"
     }
   ],
@@ -14,8 +24,8 @@
   "lastName": "Prasad",
   "age": "29",
   "emailID": "preethahariprasad@gmail.com",
-  "userID": "123444",
+  "userID": "94617573",
   "planInfo": "23123123",
   "deviceID": "2131231230",
-  "videoID": ""
+  "videoID": "syed"
 }

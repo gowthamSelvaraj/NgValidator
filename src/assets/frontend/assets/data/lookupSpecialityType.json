@@ -1,0 +1,11 @@
+{
+  "statusCode": "0000",
+  "statusDesc": "Success",
+  "specialityTypes": [
+    "depression",
+    "opiod",
+    "sdoh",
+    "mentalillness",
+    "counsellor"
+  ]
+}

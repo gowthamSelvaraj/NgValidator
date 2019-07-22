@@ -1,0 +1,52 @@
+{
+  "statusCode": "0000",
+  "statusDesc": "Success",
+  "doctorList": [
+    {
+      "doctorID": "DOC001",
+      "specialityType": "Depression",
+      "doctorName": "ABC"
+    },
+    {
+      "doctorID": "DOC002",
+      "specialityType": "Depression",
+      "doctorName": "ABCD"
+    }
+  ],
+  "appointmentDetails": {
+    "bookedAppointments": [
+      {
+        "appointmentDate": "07/24/2019",
+        "timeSlot": "0900"
+      },
+      {
+        "appointmentDate": "07/24/2019",
+        "timeSlot": "1100"
+      },
+      {
+        "appointmentDate": "07/24/2019",
+        "timeSlot": "1500"
+      },
+      {
+        "appointmentDate": "07/24/2019",
+        "timeSlot": "1700"
+      },
+      {
+        "appointmentDate": "07/19/2019",
+        "timeSlot": "1500"
+      },
+      {
+        "appointmentDate": "07/20/2019",
+        "timeSlot": "1700"
+      },
+      {
+        "appointmentDate": "07/21/2019",
+        "timeSlot": "0900"
+      },
+      {
+        "appointmentDate": "07/20/2019",
+        "timeSlot": "1500"
+      }
+    ]
+  }
+}
