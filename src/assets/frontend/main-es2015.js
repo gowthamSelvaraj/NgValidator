@@ -584,7 +584,7 @@ let VideoCallComponent = class VideoCallComponent {
     ngOnInit() { }
     call() {
         if (this.callerId) {
-            this._videoCall.call(this.callerId, 94617496, 'main_video');
+            this._videoCall.call(this.callerId, 94617573, 'main_video');
         }
     }
 };
@@ -740,7 +740,7 @@ let VideoCallService = class VideoCallService {
             }, (err, res) => {
                 if (err) {
                     console.log(err);
-                    // alert('chat err');
+                    alert('chat err');
                 }
                 else {
                     console.log(res);

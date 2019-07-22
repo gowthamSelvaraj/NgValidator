@@ -576,7 +576,7 @@ var VideoCallComponent = /** @class */ (function () {
     VideoCallComponent.prototype.ngOnInit = function () { };
     VideoCallComponent.prototype.call = function () {
         if (this.callerId) {
-            this._videoCall.call(this.callerId, 94617496, 'main_video');
+            this._videoCall.call(this.callerId, 94617573, 'main_video');
         }
     };
     VideoCallComponent.ctorParameters = function () { return [
